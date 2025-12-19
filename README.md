@@ -111,6 +111,37 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 
 ---
 
+## 📅 Day 4 — C# Architecture, Data Types & Operators
+
+> **Date:** 19/12/2025  
+> **Topic:** C# Architecture, Static Keyword, Data Types & Operators
+
+---
+
+### 🧩 What I Learned
+
+- 🏗️ **Architecture of C#:**  
+  Studied the overall architecture of C#, including how source code is compiled into Intermediate Language (IL), executed by the Common Language Runtime (CLR), and managed within the .NET framework environment.
+
+- 🔒 **Static Keyword in C#:**  
+  Learned the purpose of the `static` keyword, how static members belong to the class rather than objects, and where static variables, methods, and blocks are commonly used.
+
+- 🧮 **Data Types in C#:**  
+  Explored different types of data types with a deeper focus on **primitive data types** such as `int`, `float`, `double`, `char`, and `bool`. Also learned how **type casting** works, including implicit and explicit casting, with practical code implementation.
+
+- ➗ **Operators in C#:**  
+  Learned various operators in C# such as arithmetic, relational, logical, assignment, and unary operators, and implemented programs to understand their behavior.
+
+---
+
+### 📝 Task for the Day
+
+- Practice programs using primitive data types  
+- Implement implicit and explicit type casting  
+- Write programs demonstrating different operators in C#
+
+
+---
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
