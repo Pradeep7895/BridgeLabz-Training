@@ -173,7 +173,8 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 
 ### 📝 Task for the Day
 
-- Solve Level 1 and Level 2 programming problems  
+- Solve Level 1 and Level 2 programming problems 
+- Implement and practice **each access modifier** using practical code examples 
 
 
 ---
