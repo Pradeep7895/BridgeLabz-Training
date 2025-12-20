@@ -142,6 +142,42 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 
 
 ---
+
+## 📅 Day 5 — Access Modifiers in C#
+
+> **Date:** 20/12/2025  
+> **Topic:**  Programming Elements & Access Modifiers
+
+---
+
+### 🧩 What I Learned
+
+- 🧠 **Memory Management in C#:**  
+  Learned how memory is managed in C#, including stack and heap memory, object allocation, and the role of the Garbage Collector (GC) in automatic memory management. Understood how C# efficiently handles memory without manual deallocation.
+
+- 🧩 **Programming Elements (Level 1 & Level 2):**  
+  Completed Level 1 and Level 2 programming elements, which included working with variables, data types, operators and basic logical problems to strengthen core programming concepts.
+
+- 🔐 **Access Modifiers in C#:**  
+  Studied different access modifiers and their scope of accessibility within a program:
+  - `public` – accessible from anywhere
+  - `private` – accessible only within the same class
+  - `protected` – accessible within the class and derived classes
+  - `internal` – accessible within the same assembly
+  - `protected internal` – accessible within the same assembly or derived classes
+  - `private protected` – accessible within the same class or derived classes in the same assembly
+
+  Understood how access modifiers help in achieving data encapsulation and controlled access to class members.
+
+---
+
+### 📝 Task for the Day
+
+- Solve Level 1 and Level 2 programming problems  
+
+
+---
+
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
