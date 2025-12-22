@@ -179,6 +179,47 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 
 ---
 
+## 📅 Day 6 — Control Flow Statements in C#
+
+> **Date:** 22/12/2025  
+> **Topic:** C# Control Flow Statements
+
+---
+
+### 🧩 What I Learned
+
+- 🔀 **Control Flow in C#:**  
+  Learned how control flow statements are used to control the execution flow of a program based on conditions and loops.
+
+- 🔹 **Conditional Statements:**  
+  Studied `if-else` and `else if` statements to make decisions in programs based on different conditions.
+
+- 🔁 **Looping Statements:**  
+  Learned how `while` loops and `for` loops are used to repeatedly execute a block of code until a specific condition is met.
+
+- ⛔ **Break and Continue Statements:**  
+  Understood how `break` is used to exit a loop or switch statement and how `continue` skips the current iteration and moves to the next iteration of the loop.
+
+- 🔀 **Switch Case Statement:**  
+  Learned how the `switch` case statement works and how it provides an alternative to multiple `if-else` conditions.
+
+- ❓ **Ternary Operator:**  
+  Learned how the ternary operator is used as a compact alternative to `if-else` for simple conditional expressions.
+
+---
+
+### 📝 Task for the Day
+
+- Perform **practical implementation of all control flow statements**  
+- Write and execute programs using:
+  - `if-else` and `else if`
+  - `for` and `while` loops
+  - `break` and `continue`
+  - `switch` case
+  - Ternary operator
+
+---
+
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
