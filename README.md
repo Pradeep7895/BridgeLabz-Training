@@ -219,6 +219,35 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
   - Ternary operator
 
 ---
+## 📅 Day 7 — Starting C# Project & Arrays in .NET
+
+> **Date:** 23/12/2025  
+> **Topic:** C# Project Setup, Arrays & Multidimensional Arrays
+
+---
+
+### 🧩 What I Learned
+
+- 🚀 **Starting a C# Project using .NET:**  
+  Learned how to start a C# project using the .NET framework, including project setup, structure, and understanding how applications are built and executed in a .NET environment.
+
+- 📦 **Arrays in C#:**  
+  Learned the concept of arrays in C#, how to declare, initialize, and access elements in a single-dimensional array.
+
+- 🔢 **Two-Dimensional Arrays:**  
+  Studied two-dimensional arrays used to represent data in a tabular form (rows and columns) and implemented programs to access and manipulate 2D array elements.
+
+- 🧮 **Multidimensional Arrays:**  
+  Learned about multidimensional arrays and how they are used to store complex data structures, along with practical coding examples.
+
+---
+
+### 📝 Task for the Day
+
+- Create a basic C# project using .NET    
+- Practice accessing and modifying array elements
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
