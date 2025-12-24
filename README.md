@@ -248,6 +248,33 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Practice accessing and modifying array elements
 
 ---
+## 📅 Day 8 — Array Problem Solving & Methods in C#
+
+> **Date:** 24/12/2025  
+> **Topic:** Array Logic Building & Introduction to Methods
+
+---
+
+### 🧩 What I Learned
+
+- 🧠 **Array Problem Solving:**  
+  Solved multiple array-based problems that helped strengthen logical thinking, problem-solving skills, and understanding of array manipulation.
+
+- 🧩 **Array Assignments (Level 1 & Level 2):**  
+  Successfully completed Level 1 and Level 2 array assignments, which involved working with indexing, traversal, conditions, and basic algorithms.
+
+- 🛠️ **Introduction to Methods in C#:**  
+  Learned the basics of methods in C#, including method declaration, calling methods, passing parameters, and returning values.
+
+---
+
+### 📝 Task for the Day
+
+- Solve various array problems to improve logic-building skills  
+- Complete all Level 1 and Level 2 array assignments  
+- Write basic programs using methods in C#
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
