@@ -275,6 +275,42 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Write basic programs using methods in C#
 
 ---
+## 📅 Day 9 — Strings & Exception Handling in C#
+
+> **Date:** 26/12/2025  
+> **Topic:** Strings in C# & Exception Handling
+
+---
+
+### 🧩 What I Learned
+
+- 🔤 **Strings in C#:**  
+  Learned about strings in C#, including different ways to create strings and take string input from the user.
+
+- 🧠 **String Constant Pool:**  
+  Understood the concept of the string constant pool, how string literals are stored in memory, and how it improves memory efficiency through reuse.
+
+- 📚 **String Arrays:**  
+  Learned how to work with arrays of strings and implemented programs to store, access, and manipulate multiple strings.
+
+- 🛠️ **Built-in String Methods:**  
+  Explored commonly used built-in string methods such as `Length`, `ToUpper()`, `ToLower()`, `Substring()`, `Contains()`, `Replace()`, `Split()`, and `Trim()`.
+
+- ⚠️ **Exception Handling in C#:**  
+  Learned about exceptions in C#, including the use of `try`, `catch`, `finally`, and `throw` to handle runtime errors gracefully.
+
+- 🧩 **String-Based Problem Solving:**  
+  Solved several string-related problems to strengthen understanding of string manipulation and exception handling concepts.
+
+---
+
+### 📝 Task for the Day
+
+- Write programs using different string creation techniques  
+- Practice built-in string methods  
+- Solve string-based logical problems
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
