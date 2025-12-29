@@ -311,7 +311,40 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Solve string-based logical problems
 
 ---
+## 📅 Day 10 — Scenario-Based Problems & OOPs in C#
 
+> **Date:** 29/12/2025  
+> **Topic:** Scenario-Based Problem Solving & OOP Concepts
+
+---
+
+### 🧩 What I Learned
+
+- 🧠 **Scenario-Based Problem Solving:**  
+  Solved multiple scenario-based problems that focused on applying logic to real-world situations, including:
+  - Snake and ladder problem
+  - Sentence formatter  
+  - Analyzing hourly temperature data for a week  
+  - Managing and calculating student test scores  
+
+  These problems helped improve analytical thinking and practical problem-solving skills.
+
+- 🧱 **Introduction to OOP Concepts in C#:**  
+  Started learning Object-Oriented Programming concepts in C#, including:
+  - **Class** – blueprint for creating objects  
+  - **Objects** – instances of a class  
+  - **Constructor** – special method used to initialize objects  
+
+  Understood how OOP helps in organizing code, improving reusability, and maintaining clean program structure.
+
+---
+
+### 📝 Task for the Day
+
+- Solve scenario-based programming problems  
+- Implement OOP concepts using classes, objects, and constructors  
+
+---
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
