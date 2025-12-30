@@ -345,6 +345,39 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Implement OOP concepts using classes, objects, and constructors  
 
 ---
+## 📅 Day 11 — Scenario-Based Applications in C#
+
+> **Date:** 30/12/2025  
+> **Topic:** Scenario-Based Problem Solving & Application Logic
+
+---
+
+### 🧩 What I Learned
+
+- 📚 **Library Management System (Scenario-Based):**  
+  Designed and implemented the core logic for a library management system. The system allows users to select roles such as **Admin** and **User** and perform operations like:
+  - Adding new books  
+  - Deleting existing books  
+  - Updating book details  
+  - Viewing available books  
+  - Managing checked-out book records  
+
+  This scenario helped in understanding role-based logic and CRUD-style operations.
+
+- 🧑‍🎓 **Student Quiz Grader:**  
+  Implemented a quiz grading system where students enter their answers, and the system calculates the total score, percentage, and final result based on the responses.
+
+  This problem strengthened skills in input handling, conditional logic, loops, and result computation.
+
+---
+
+### 📝 Task for the Day
+
+- Solve scenario-based programming problems  
+- Implement role-based logic and menu-driven programs  
+- Calculate scores and percentages using conditional logic
+
+---
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
