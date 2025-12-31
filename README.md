@@ -378,6 +378,44 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Calculate scores and percentages using conditional logic
 
 ---
+## 📅 Day 12 — Scenario-Based Applications 
+
+> **Date:** 31/12/2025  
+> **Topic:** Scenario-Based Design & Utility Class Implementation
+
+---
+
+### 🧩 What I Learned
+
+- 🏦 **Bank Account Manager (Scenario-Based):**  
+  Designed and implemented a bank account management system using role-based access for **Manager** and **User**. The system supports core banking operations such as:
+  - Creating a bank account  
+  - Depositing money  
+  - Withdrawing money  
+  - Checking account balance  
+
+  This scenario strengthened understanding of OOP concepts, method design, and role-based logic implementation.
+
+- 🧮 **Utility Class for Mathematical Operations:**  
+  Created a utility class containing reusable static methods to perform common mathematical operations such as:
+  - Factorial calculation  
+  - Prime number checking  
+  - Greatest Common Divisor (GCD)  
+  - Fibonacci series generation  
+
+  Learned how utility classes improve code reusability and organization.
+
+- 🧾 **Invoice Generator for Freelancers:**  
+  Built a simple invoice generator that processes task descriptions and amounts, calculates the total invoice value, and generates a formatted output. 
+---
+
+### 📝 Task for the Day
+
+- Implement scenario-based applications using OOP principles  
+- Create and test utility classes with static methods  
+- Develop a basic invoice generator using string manipulation
+
+---
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
