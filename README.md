@@ -416,6 +416,36 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Develop a basic invoice generator using string manipulation
 
 ---
+## 📅 Day 13 — Application Design & UML Concepts
+
+> **Date:** 01/01/2026  
+> **Topic:** Cafeteria Menu Application & UML Diagrams
+
+---
+
+### 🧩 What I Learned
+
+- ☕ **Cafeteria Menu Application:**  
+  Designed and implemented a cafeteria menu application that displays available menu items and takes customer orders based on user input. The application handles order selection, quantity input, and basic order processing logic.
+
+  This helped reinforce understanding of classes, objects, methods, and user interaction in a real-world scenario.
+
+- 📐 **Class Diagrams:**  
+  Learned about class diagrams and how they represent the structure of a system, including classes, attributes, methods, and relationships between classes.
+
+- 🔄 **Sequence Diagrams:**  
+  Studied sequence diagrams to understand the flow of interactions between objects over time, helping visualize method calls and execution order in an application.
+
+---
+
+### 📝 Task for the Day
+
+- Implement a cafeteria menu application using OOP concepts  
+
+
+---
+
+
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
