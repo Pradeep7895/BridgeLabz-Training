@@ -444,7 +444,40 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 
 
 ---
+## 📅 Day 14 — Scenario Based & Inheritance 
 
+> **Date:** 02/01/2026
+> **Topic:** Scenario Based & Inheritance Concepts
+
+---
+
+### 🧩 Programs Covered
+
+- 🚌 **Bus Route Distance Tracker:**  
+  Tracks total distance using a `while` loop and exits when the passenger chooses to get off.
+
+- 🎉 **Festival Lucky Draw:**  
+  Checks if a drawn number is divisible by 3 and 5 to award a gift. 
+
+### 📘 Inheritance (Theory)
+
+- **Inheritance** allows a class to acquire properties and methods of another class using the `:` symbol in C#.
+
+**Types of Inheritance in C#:**
+- Single Inheritance  
+- Multilevel Inheritance  
+- Hierarchical Inheritance  
+
+> *(Multiple inheritance is not supported directly in C#, but can be achieved using interfaces.)*
+
+---
+
+### 📝 Task for the Day
+
+- Build scenario-based programs using real-life examples
+- Understand inheritance concepts and its types  
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
