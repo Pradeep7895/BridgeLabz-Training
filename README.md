@@ -478,6 +478,43 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Understand inheritance concepts and its types  
 
 ---
+## 📅 Day 15 — OOP Concepts: Encapsulation & Inheritance
+
+> **Date:** 03/01/2026  
+> **Topic:** Core OOP Concepts in C#
+
+---
+
+### 🧩 What I Learned
+
+- 🔗 **Constructor Chaining:**  
+  Learned how constructor chaining works in C# using:
+  - `this()` to call another constructor of the same class  
+  - `base()` *(super)* to call the constructor of the parent class  
+
+---
+
+### 📘 OOP Pillars Covered
+
+#### 1️⃣ Encapsulation
+- Achieved by making variables `private`
+- Used **getters and setters** to control data access
+- Overrode the `ToString()` method to represent object data in a readable format
+
+#### 2️⃣ Inheritance
+- Learned how one class can acquire properties and methods of another class
+- Studied **types of inheritance**
+- Understood **upcasting**
+- Learned about the **diamond problem**
+
+---
+
+### 📝 Task for the Day
+
+- Practice encapsulation using getters, setters, and `ToString()`  
+- Implement inheritance concepts with different scenarios  
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
