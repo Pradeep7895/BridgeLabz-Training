@@ -515,6 +515,46 @@ In the next session, we will dive deeper into GitHub concepts and start solving 
 - Implement inheritance concepts with different scenarios  
 
 ---
+## 📅 Day 16 — Polymorphism & Abstraction in C#
+
+> **Date:** 05/01/2026  
+> **Topic:** Advanced OOP Concepts & Scenario-Based Applications
+
+---
+
+### 🧩 What I Learned
+
+#### 3️⃣ Polymorphism
+- Learned **method overloading** (compile-time polymorphism)
+- Learned **method overriding** (run-time polymorphism)
+- Understood **method binding** (early and late binding)
+- Learned **method hiding** using the `static` keyword
+
+#### 4️⃣ Abstraction
+- Learned how **abstraction** hides implementation details
+- Studied **interfaces** and their usage
+- Studied **abstract classes** and how they differ from interfaces
+
+---
+
+### 🧩 Scenario-Based Problem Solving (Using OOP)
+
+Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve real-world problems:
+
+- 🏥 **Hospital Patient Management System:**  
+  Implemented patient billing functionality for both **inpatients** and **outpatients**, calculating total bills based on treatment charges, stay duration (for inpatients), and services used.
+
+- 🚗 **Vehicle Rental Application:**  
+  Designed a rental system that calculates the **total rent based on the number of days** for different vehicle types such as **Car, Bike, and Truck** using OOP principles.
+
+---
+
+### 📝 Task for the Day
+
+- Practice polymorphism and abstraction concepts  
+- Solve scenario-based problems with billing and rental calculations  
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
