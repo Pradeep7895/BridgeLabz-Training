@@ -555,6 +555,30 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Solve scenario-based problems with billing and rental calculations  
 
 ---
+## 📅 Day 17 — Scenario-Based OOP Applications
+
+> **Date:** 06/01/2026  
+> **Topic:** Applying Encapsulation, Inheritance, Polymorphism & Abstraction
+
+---
+
+### 🧩 What I Learned
+
+-  **Bird Sanctuary System:**  
+  Implemented a bird sanctuary using a base `Bird` class, interfaces `IFlyable` and `ISwimmable`, and arrays. Used polymorphism to identify bird behaviors and invoke appropriate methods.
+
+
+- **Customer Service Call Log Manager:**  
+  Built a call log management system using arrays to store call records. Implemented features to add logs, search messages using keywords, and filter call logs based on a given time range.
+
+---
+
+### 📝 Task for the Day
+
+- Implement scenario-based programs using all OOP principles  
+- Practice interface-based polymorphism and array handling  
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
