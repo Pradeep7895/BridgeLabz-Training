@@ -22,6 +22,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
                 Console.WriteLine("1. Check Attendance");
                 Console.WriteLine("2. Calculate Daily Wage");
                 Console.WriteLine("3. Calculate Part-Time Wage");
+                Console.WriteLine("4. Calculate Monthly Wage");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter your choice: ");
 
@@ -43,7 +44,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
                         Console.WriteLine("\nResult: ");
                         Console.WriteLine(employeeUtility.CalculatePartTimeWage());
                         break;
-
+                    case 4:
+                        Console.WriteLine("\nResult: ");
+                        Console.WriteLine(employeeUtility.CalculateMonthlyWage());
+                        break;
                     case 0:
                         exit = true;
                         Console.WriteLine("Exit Menu.");

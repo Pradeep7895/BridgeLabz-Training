@@ -12,5 +12,8 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
         Employee CheckAttendance();
         Employee CalculateDailyWage();
         Employee CalculatePartTimeWage();
+
+        int GetPresentDays();
+        Employee CalculateMonthlyWage();
     }
 }
