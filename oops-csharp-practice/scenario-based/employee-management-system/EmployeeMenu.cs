@@ -19,6 +19,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
             Console.WriteLine("Employee Menu: ");
             Console.WriteLine("1. Check Attendance");
             Console.WriteLine("2. Calculate Daily Wage");
+            Console.WriteLine("3. Calculate Part-Time Wage");
             Console.Write("Enter your choice: ");
 
             int choice = int.Parse(Console.ReadLine());
@@ -34,6 +35,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
                     Employee emp2 = employeeUtility.CalculateDailyWage();
                     Console.WriteLine("Result :");
                     Console.WriteLine(emp2);
+                    break;
+                case 3:
+                    Console.WriteLine("Result");
+                    Console.WriteLine(employeeUtility.CalculatePartTimeWage());
                     break;
                 default:
                     Console.WriteLine("Invalid Choice");

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_management_system
+﻿namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_management_system
 {
     internal class EmployeeUtilityImpl : IEmployee
 
@@ -16,7 +10,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
             //object creation
             employee = new Employee();
             Random random = new Random();
-            bool attendence = random.Next(0, 2) ==1;
+            bool attendence = random.Next(0, 2) == 1;
 
             employee.SetEmployeeId(1);
             employee.SetEmployeeName("Pradeep");
@@ -37,6 +31,20 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
             employee.SetEmployeeName("Pradeep");
             employee.SetIsPresent(true); // assumed present
             employee.SetDailyWage(dailyWage);
+
+            return employee;
+        }
+        public Employee CalculatePartTimeWage()
+        {
+            employee = new Employee();
+
+            int wagePerHour = 20;
+            int partTimeHour = 8;
+
+            employee.SetEmployeeId(1);
+            employee.SetEmployeeName("Pradeep");
+            employee.SetIsPresent(true);
+            employee.SetDailyWage(wagePerHour * partTimeHour);
 
             return employee;
         }
