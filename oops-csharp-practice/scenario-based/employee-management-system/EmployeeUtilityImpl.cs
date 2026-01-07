@@ -103,5 +103,42 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
 
             return employee;
         }
+         //method to calculate monthly wage with condition
+        public Employee CalculateWageWithCondition()
+        {
+            employee = new Employee();
+
+            int wagePerHour = 20;
+            int fullDayHour = 8;
+            int maxDays = 20;
+            int maxHours = 100;
+
+            int totalDays = 0;
+            int totalHours = 0;
+            double totalWage = 0;
+
+            // Calculate until either condition is reached
+            while (totalDays < maxDays && totalHours < maxHours)
+            {
+                totalDays++;
+                totalHours += fullDayHour;
+
+                // if hours exceed limit
+                if (totalHours > maxHours)
+                {
+                    totalHours = maxHours;
+                    break;
+                }
+
+                totalWage += fullDayHour * wagePerHour;
+            }
+
+            employee.SetEmployeeId(1);
+            employee.SetEmployeeName("Pradeep");
+            employee.SetPresentDays(totalDays);
+            employee.SetMonthlyWage(totalWage);
+
+            return employee;
+        }
     }
 }

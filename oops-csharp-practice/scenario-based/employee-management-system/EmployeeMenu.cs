@@ -48,6 +48,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
                         Console.WriteLine("\nResult: ");
                         Console.WriteLine(employeeUtility.CalculateMonthlyWage());
                         break;
+                    case 5:
+                        Console.WriteLine("\nResult: ");
+                        Console.WriteLine(employeeUtility.CalculateWageWithCondition());
+                        break;    
                     case 0:
                         exit = true;
                         Console.WriteLine("Exit Menu.");

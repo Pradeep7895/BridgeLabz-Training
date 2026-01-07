@@ -26,7 +26,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
         public string GetEmployeeName() { return EmployeeName; }
         public void SetEmployeeName(string EmployeeName) { this.EmployeeName = EmployeeName; }
 
-   
+
         public bool GetIsPresent() { return IsPresent; }
         public void SetIsPresent(bool IsPresent) { this.IsPresent = IsPresent; }
 

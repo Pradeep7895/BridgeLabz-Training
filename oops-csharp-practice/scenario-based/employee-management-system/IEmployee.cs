@@ -15,5 +15,6 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
 
         int GetPresentDays();
         Employee CalculateMonthlyWage();
+        Employee CalculateWageWithCondition();
     }
 }
