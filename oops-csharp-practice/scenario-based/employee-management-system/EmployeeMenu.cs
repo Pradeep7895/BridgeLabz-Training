@@ -16,8 +16,9 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
             // Assign implementation to interface reference
             employeeUtility = new EmployeeUtilityImpl();
 
-            Console.WriteLine("----- Employee Menu -----");
+            Console.WriteLine("Employee Menu: ");
             Console.WriteLine("1. Check Attendance");
+            Console.WriteLine("2. Calculate Daily Wage");
             Console.Write("Enter your choice: ");
 
             int choice = int.Parse(Console.ReadLine());
@@ -26,7 +27,13 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
             {
                 case 1:
                     Employee emp = employeeUtility.CheckAttendance();
+                    Console.WriteLine("Result :");
                     Console.WriteLine(emp);
+                    break;
+                case 2:
+                    Employee emp2 = employeeUtility.CalculateDailyWage();
+                    Console.WriteLine("Result :");
+                    Console.WriteLine(emp2);
                     break;
                 default:
                     Console.WriteLine("Invalid Choice");

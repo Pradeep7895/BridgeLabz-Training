@@ -25,5 +25,20 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
 
             return employee;
         }
+        public Employee CalculateDailyWage()
+        {
+            employee = new Employee();
+
+            int wagePerHour = 20;
+            int fullDayHour = 8;
+            double dailyWage = wagePerHour * fullDayHour;
+
+            employee.SetEmployeeId(1);
+            employee.SetEmployeeName("Pradeep");
+            employee.SetIsPresent(true); // assumed present
+            employee.SetDailyWage(dailyWage);
+
+            return employee;
+        }
     }
 }

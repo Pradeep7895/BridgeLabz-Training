@@ -10,6 +10,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
     internal interface IEmployee
     {
         Employee CheckAttendance();
+        Employee CalculateDailyWage();
 
     }
 }

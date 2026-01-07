@@ -15,6 +15,8 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
         private string EmployeeNumber;
         private string EmployeeEmail;
         private bool IsPresent;
+        private double DailyWage;
+        
 
         //public getter and setter methods
         public int GetEmployeeId() { return EmployeeId; }
@@ -32,11 +34,15 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.employee_manage
         public bool GetIsPresent() { return IsPresent; }
         public void SetIsPresent(bool IsPresent) { this.IsPresent = IsPresent; }
 
+        public double GetDailyWage() { return DailyWage; }
+        public void SetDailyWage(double DailyWage) { this.DailyWage = DailyWage; }
+
         public override string ToString()
         {
             return $"Employee Id = {EmployeeId}\n" +
                 $"Employee Name = {EmployeeName}\n" +
-                $"Attendence : {(IsPresent ? "Present" : "Absent")}";
+                $"Attendence : {(IsPresent ? "Present" : "Absent")}"+
+                $"Daily Wage : {DailyWage}";
                 
              
 
