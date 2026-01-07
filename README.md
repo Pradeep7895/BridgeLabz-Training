@@ -579,7 +579,42 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Practice interface-based polymorphism and array handling  
 
 ---
+## 📅 Day 18 — Employee Wage Computation & Data Structures
 
+> **Date:** 07/01/2026  
+> **Topic:** OOP-Based Problem Solving & Introduction to Data Structures
+
+---
+
+### 🧩 What I Learned
+
+- 👨‍💼 **Employee Wage Computation Problem:**  
+  Solved an employee wage computation problem using OOP concepts and structured programming.
+
+- 🧱 **OOP Concepts Applied:**  
+  - Encapsulation  
+  - Polymorphism  
+  - Interface  
+  - Abstract Classes  
+
+- 📚 **Introduction to Data Structures:**  
+  Learned the basics of data structures, their importance, and key features in C#.
+
+- 🔗 **Linked Lists:**  
+  Studied different types of linked lists:
+  - Singly Linked List  
+  - Doubly Linked List  
+  - Circular Linked List  
+
+---
+
+### 📝 Task for the Day
+
+- Implement employee wage computation using OOP principles
+- Complete the assignments of encaptulation, polymorphism, interfaces and abstract class.  
+- Understand and practice linked list concepts  
+
+---
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
