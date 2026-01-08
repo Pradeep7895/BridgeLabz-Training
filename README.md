@@ -615,6 +615,32 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Understand and practice linked list concepts  
 
 ---
+## 📅 Day 19 — Smart Home Automation & Data Structures
+
+> **Date:** 08/01/2026  
+> **Topic:** Interface-Based Polymorphism & Core Data Structures
+
+---
+
+### 🧩 What I Learned
+
+- 🏠 **Smart Home Automation System:**  
+  Designed a smart home system with appliances like **Light**, **Fan**, and **AC** using OOP concepts. Implemented the `IControllable` interface and applied polymorphism to handle different turn-on and turn-off behaviors.
+
+- 📚 **Data Structures in Application:**  
+  - **Stack:** Managed recent appliance actions  
+  - **Queue:** Handled appliance control requests in sequence  
+  - **HashMap:** Stored and retrieved appliance details efficiently  
+  - **Hashing Function:** Understood fast data access using keys  
+
+---
+
+### 📝 Task for the Day
+
+- Build a smart home application using interfaces and polymorphism  
+- Apply Stack, Queue, and HashMap in a single program  
+
+---
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
