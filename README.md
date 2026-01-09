@@ -641,6 +641,33 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Apply Stack, Queue, and HashMap in a single program  
 
 ---
+## 📅 Day 20  — OOP Applications & ATM Logic
+
+> **Date:** 09/01/2026  
+> **Topic:** Interface-Based Design & Scenario Logic Implementation
+
+---
+
+### 🧩 What I Learned
+
+-  **FitTrack – Fitness Tracker:**  
+  Designed a fitness tracking system using OOP concepts. Implemented classes like `UserProfile` and `Workout`, used the `ITrackable` interface, and created workout types such as `CardioWorkout` and `StrengthWorkout`.
+
+- 🏧 **ATM Dispenser Logic:**  
+  Implemented logic for dispensing the **minimum number of notes** based on different scenarios:
+  - Calculated optimal note combination for a given amount  
+  - Updated strategy when ₹500 notes were unavailable  
+  - Displayed fallback combinations when exact change was not possible  
+
+---
+
+### 📝 Task for the Day
+
+- Implement OOP-based applications using interfaces  
+- Solve real-world scenario problems with optimized logic 
+- Solved assignment questions of stack, queue and dictionary. 
+
+---
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
