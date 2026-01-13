@@ -668,6 +668,27 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Solved assignment questions of stack, queue and dictionary. 
 
 ---
+## 📅 Day 21 — Rod Cutting Optimization
+
+> **Date:** 12/01/2026  
+> **Topic:** Revenue Optimization Scenarios
+
+---
+
+### 🧩 What I Learned
+
+- 🏭 **Metal Factory Pipe Cutting:**  
+  Found optimal rod cuts to maximize revenue and compared optimized vs non-optimized strategies.
+
+- 🪑 **Custom Furniture Manufacturing:**  
+  Determined best cuts for a 12ft rod while handling waste constraints and revenue trade-offs.
+
+
+### 📝 Task for the Day
+
+- Implement rod-cutting optimization logic  
+- Analyze trade-offs between revenue and waste 
+--- 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
