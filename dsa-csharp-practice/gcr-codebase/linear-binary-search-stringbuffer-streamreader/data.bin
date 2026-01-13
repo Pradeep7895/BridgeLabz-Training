@@ -1,0 +1,4 @@
+Hello World
+This is binary data read as text.
+StreamReader converts bytes into characters.
+Welcome to C#
