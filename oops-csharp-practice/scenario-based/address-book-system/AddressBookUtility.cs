@@ -40,6 +40,13 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
             Console.Write("Enter Last name: ");
             string lastName = Console.ReadLine();
 
+            //UC-7 DUPLICATE CHECK
+            if (IsDuplicateContact(firstName, lastName))
+            {
+                Console.WriteLine("Duplicate contact found. Contact not added.");
+                return;
+            }
+
             Console.Write("Enter Address: ");
             string address = Console.ReadLine();
 
@@ -65,6 +72,25 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
 
             Console.WriteLine("Contact added successfully");
         }
+        //UC-7
+        //helper method to check for duplicate names
+        //if exists, return true
+        //else returns false;
+        private bool IsDuplicateContact(string firstName, string lastName)
+        {
+            for (int i = 0; i < currentBook.GetCurrentIndex(); i++)
+            {
+                Contact existing = currentBook.GetContacts()[i];
+
+                if (existing.GetFirstName().Equals(firstName, StringComparison.OrdinalIgnoreCase) &&
+                    existing.GetLastName().Equals(lastName, StringComparison.OrdinalIgnoreCase))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
 
         public void DisplayAllContacts()
         {
