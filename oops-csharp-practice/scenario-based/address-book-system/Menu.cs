@@ -26,6 +26,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 Console.WriteLine("2. Display All Contacts");
                 Console.WriteLine("3. Edit Contact By Name");
                 Console.WriteLine("4. Delete Contact By Name");
+                Console.WriteLine("5. Add Multiple Contacts");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter choice: ");
                 choice = int.Parse(Console.ReadLine());
@@ -43,6 +44,9 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                         break;
                     case 4:
                         addressBook.DeleteContactByName();
+                        break;
+                    case 5:
+                        addressBook.AddMultipleContacts();
                         break;
                     case 0:
                         Console.WriteLine("Exit..");

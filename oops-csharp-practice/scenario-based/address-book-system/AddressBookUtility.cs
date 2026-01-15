@@ -144,6 +144,37 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
             }
             Console.WriteLine("Contact not found.");
         }
-        
+
+        // Add multiple contacts using array
+        public void AddMultipleContacts()
+        {
+            //find the remaining number for add contacts
+            int remainingSlots =
+               addressBook.GetMaxSize() - addressBook.GetCurrentIndex();
+
+            //if slots are equal to 0 , then address book is full, we can not add more contacts
+            if (remainingSlots == 0)
+            {
+                Console.WriteLine("Address Book is full. Cannot add more contacts.");
+                return;
+            }
+
+            Console.WriteLine($"You can add up to {remainingSlots} more contact(s).");
+            Console.Write("How many contacts do you want to add? ");
+            int count = int.Parse(Console.ReadLine());
+
+            if (count > remainingSlots)
+            {
+                Console.WriteLine("Not space in Address Book.");
+                return;
+            }
+            //to add more contacts in address bbok
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine($"\nAdding contact {i + 1}:");
+                AddContact();
+            }
+        }
+
     }
 }
