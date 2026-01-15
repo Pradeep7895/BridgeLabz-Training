@@ -18,10 +18,56 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
         public void Start()
         {
             int choice;
+            do
+            {
+                Console.WriteLine("\n=====Address Book System=====");
+                Console.WriteLine("1. Create Address Book");
+                Console.WriteLine("2. Open Address Book");
+                Console.WriteLine("3. Display Address Books");
+                Console.WriteLine("4. Manage Contacts");
+                Console.WriteLine("0. Exit");
+                Console.Write("Enter choice: ");
+
+                choice = int.Parse(Console.ReadLine());
+                switch (choice)
+                {
+                    case 1:
+                        addressBook.CreateAddressBook();
+                        break;
+                    case 2:
+                        addressBook.SelectAddressBook();
+                        break;
+                    case 3:
+                        addressBook.DisplayAddressBooks(); 
+                        break;
+                    case 4:
+                        if (!addressBook.IsAddressBookSelected())
+                        {
+                            Console.WriteLine("Please open an Address Book first.");
+                        }
+                        else
+                        {
+                            ShowContactMenu();
+                        }
+                        break;
+
+                    case 0:
+                        Console.WriteLine("Exiting...");
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid choice.");
+                        break;
+                }
+            } while (choice != 0);
+        }
+        private void ShowContactMenu()
+        {
+            int option;
 
             do
             {
-                Console.WriteLine("\nAddress Book Menu : ");
+                Console.WriteLine("\nContact Menu : ");
                 Console.WriteLine("1. Add Contact");
                 Console.WriteLine("2. Display All Contacts");
                 Console.WriteLine("3. Edit Contact By Name");
@@ -29,9 +75,9 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 Console.WriteLine("5. Add Multiple Contacts");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter choice: ");
-                choice = int.Parse(Console.ReadLine());
+                option = int.Parse(Console.ReadLine());
 
-                switch(choice)
+                switch(option)
                 {
                     case 1:
                         addressBook.AddContact();
@@ -55,7 +101,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                         Console.WriteLine("Invalid Choice");
                         break;
                 }
-            } while (choice != 0);
+            } while (option != 0);
         }
     }
 }

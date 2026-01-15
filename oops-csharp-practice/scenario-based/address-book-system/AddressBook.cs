@@ -8,20 +8,31 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
 {
     internal class AddressBook
     {
+        //for contacts 
         private Contact[] Contacts;
         private int MaxSize;
         private int IndexAtCurrent;
+
+        //for multiple address books
+        private AddressBook[] addressBooks;
+        private string[] addressBookNames;
+        private int addressBookCount;
         
 
-        public AddressBook(int maxSize)
+        public AddressBook(int maxBooks, int maxContacts)
         {
-            MaxSize = maxSize;
+            MaxSize = maxContacts;
             Contacts = new Contact[MaxSize];
             IndexAtCurrent = 0;
+
+            addressBooks = new AddressBook[maxBooks];
+            addressBookNames = new string[maxBooks];
+            addressBookCount = 0;
           
         }
 
         //getter and setter
+        //for contacts
         public int GetMaxSize()
         {
             return MaxSize;
@@ -42,6 +53,24 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
             IndexAtCurrent = index;
 
         }
+        //for multiple address books
+        public AddressBook[] GetAddressBooks()
+        {
+            return addressBooks;
+        }
+        public string[] GetAddressBookNames()
+        {
+            return addressBookNames;
+        }
+        public int GetAddressBookCount()
+        {
+            return addressBookCount;
+        }
+        public void SetAddressbookCount(int count)
+        {
+            addressBookCount = count;
+        }
+
         // Overriding ToString .
         public override string ToString()
         {
