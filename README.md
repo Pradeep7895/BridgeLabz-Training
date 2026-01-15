@@ -712,6 +712,25 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Understand algorithm performance and optimization concepts  
 
 ---
+## 📅 Day 23 — Algorithm Best Practices 
+
+> **Date:** 14/01/2026  
+> **Topic:** Optimization Principles 
+
+---
+
+### 🧩 What I Learned
+
+- ⚙️ **General Algorithm Best Practices:**  
+  Learned best practices for writing efficient algorithms with a focus on clarity, correctness, and maintainability.
+
+- ⏱️ **Time & Space Complexity Optimization:**  
+  Understood techniques to optimize algorithms by reducing execution time and memory usage.
+---
+### 📝 Task for the Day
+- Complete Assignments of runtime analysis and complexity.
+  
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
