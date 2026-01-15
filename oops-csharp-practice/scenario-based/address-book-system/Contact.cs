@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -56,5 +57,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
 
         public string GetEmail() { return Email; }
         public void SetEmail(string email) { Email = email; }
+
+        public override string ToString()
+        {
+            return $"\nFirst Name: {FirstName} | Last Name: {LastName} | Address : {Address}| City: {City} | State: {State} | Zip Code: {Zip} | Phone Number: {PhoneNumber} | Email: {Email}";
+        }
     }
 }
