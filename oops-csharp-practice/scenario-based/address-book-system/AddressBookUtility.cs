@@ -292,6 +292,73 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
             return currentBook != null;
         }
 
+        // UC-8 SEARCH BY CITY 
+        public void SearchPersonByCity()
+        {
+            Console.Write("Enter City name to search: ");
+            string city = Console.ReadLine();
 
+            // Flag to check whether any matching person is found
+            bool found = false;
+
+            // Loop through all Address Books
+            for (int i = 0; i < systemBook.GetAddressBookCount(); i++)
+            {
+                // Get one Address Book
+                AddressBook book = systemBook.GetAddressBooks()[i];
+
+                // Loop through all contacts inside the current Address Book
+                for (int j = 0; j < book.GetCurrentIndex(); j++)
+                {
+                    Contact contact = book.GetContacts()[j];
+
+                    if (contact.GetCity().Equals(city, StringComparison.OrdinalIgnoreCase))
+                    {
+                        // Print contact details if match is found
+                        Console.WriteLine(contact);
+                        found = true;
+                    }
+                }
+            }
+            // If no matching contact
+            if (!found)
+            {
+                Console.WriteLine("No persons found in this city.");
+            }
+        }
+
+        // UC-8 SEARCH BY STATE 
+        public void SearchPersonByState()
+        {
+            Console.Write("Enter State name to search: ");
+            string state = Console.ReadLine();
+
+            // Flag to check whether any matching person is found
+            bool found = false;
+
+            // Loop through all Address Books in the system
+            for (int i = 0; i < systemBook.GetAddressBookCount(); i++)
+            {
+                AddressBook book = systemBook.GetAddressBooks()[i];
+
+                // Loop through all contacts inside the current Address Book
+                for (int j = 0; j < book.GetCurrentIndex(); j++)
+                {
+                    // Get the contact at current index
+                    Contact contact = book.GetContacts()[j];
+
+                    if (contact.GetState().Equals(state, StringComparison.OrdinalIgnoreCase))
+                    {
+                        Console.WriteLine(contact);
+                        found = true;
+                    }
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("No persons found in this state.");
+            }
+        }
     }
 }

@@ -21,5 +21,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
         void DisplayAddressBooks();
         bool IsAddressBookSelected();
 
+         // UC-8
+        void SearchPersonByCity();
+        void SearchPersonByState();
+        
+        
     }
 }

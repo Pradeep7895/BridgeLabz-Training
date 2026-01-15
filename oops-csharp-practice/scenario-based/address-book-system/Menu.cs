@@ -25,6 +25,8 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 Console.WriteLine("2. Open Address Book");
                 Console.WriteLine("3. Display Address Books");
                 Console.WriteLine("4. Manage Contacts");
+                Console.WriteLine("5. Search Person By City");
+                Console.WriteLine("6. Search Person By State");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter choice: ");
 
@@ -49,6 +51,13 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                         {
                             ShowContactMenu();
                         }
+                        break;
+                    case 5:
+                        addressBook.SearchPersonByCity();
+                        break;
+
+                    case 6:
+                        addressBook.SearchPersonByState();
                         break;
 
                     case 0:
