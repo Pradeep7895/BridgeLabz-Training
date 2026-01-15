@@ -117,6 +117,33 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
             }
             Console.WriteLine("Contact not found.");
         }
+
+        //UC -4 delete contact by name
+        public void DeleteContactByName()
+        {
+            Console.Write("Enter first name of the contact to delete: ");
+            string name = Console.ReadLine();
+
+            for(int i = 0;i < addressBook.GetCurrentIndex(); i++)
+            {
+                //check for the first name in the array of contact to be equal to the name provided 
+                if (addressBook.GetContacts()[i].GetFirstName().Equals(name, StringComparison.OrdinalIgnoreCase))
+                {
+                    //shift the contact to left
+                    for(int j=i;j<addressBook.GetCurrentIndex();j++)
+                    {
+                        addressBook.GetContacts()[j] = addressBook.GetContacts()[j + 1];
+                    }
+                    //set the contact to null
+                    addressBook.GetContacts()[addressBook.GetCurrentIndex() - 1] = null;
+                    addressBook.SetCurrentIndex(addressBook.GetCurrentIndex() - 1);
+
+                    Console.WriteLine("Contact deleted successfully.");
+                    return;
+                }
+            }
+            Console.WriteLine("Contact not found.");
+        }
         
     }
 }
