@@ -689,6 +689,30 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Implement rod-cutting optimization logic  
 - Analyze trade-offs between revenue and waste 
 --- 
+## 📅 Day 22 — CinemaTime & Time Complexity
+
+> **Date:** 13/01/2026  
+> **Topic:** Movie Schedule Scenario & Performance Basics
+
+---
+
+### 🧩 What I Learned
+
+- 🎬 **CinemaTime – Movie Schedule Manager:**  
+  Built a movie schedule manager to add, view, and search movies using array for titles and showtimes. Used string formatting to display movie details and implemented exception handling for invalid indices and incorrect time formats.
+
+- 📘 **Runtime Analysis & Complexity:**  
+  Learned the basics of runtime analysis, Big-O notation, time and space complexity, and best, worst, and average case analysis. Also studied practical guidelines for writing optimized C# code.
+
+---
+
+### 📝 Task for the Day
+
+- Implement array-based movie management with proper exception handling  
+- Understand algorithm performance and optimization concepts  
+
+---
+
 ✨ *This repository serves as a daily learning journal for the training program.*
 
 
