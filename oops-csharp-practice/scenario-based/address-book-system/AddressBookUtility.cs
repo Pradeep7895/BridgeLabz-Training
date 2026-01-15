@@ -26,10 +26,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 return;
             }
 
-            Console.WriteLine("Enter First name: ");
+            Console.Write("Enter First name: ");
             string firstName = Console.ReadLine();
 
-            Console.WriteLine("Enter Last name: ");
+            Console.Write("Enter Last name: ");
             string lastName = Console.ReadLine();
 
             Console.Write("Enter Address: ");
@@ -72,6 +72,50 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 Console.WriteLine(addressBook.GetContacts()[i]);
             }
 
+        }
+        public void EditContactByName()
+        {
+            Console.Write("Enter first name of contact to edit: ");
+            string searchName = Console.ReadLine();
+
+            for(int i = 0; i < addressBook.GetCurrentIndex(); i++)
+            {
+                Contact contact = addressBook.GetContacts()[i];
+
+                if(contact.GetFirstName().Equals(searchName, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.Write("Contact is found. Enter the updated values");
+
+                    Console.Write("\nNew First Name: ");
+                    contact.SetFirstName(Console.ReadLine());
+
+                    Console.Write("New Last Name: ");
+                    contact.SetLastName(Console.ReadLine());
+
+                    Console.Write("New Address: ");
+                    contact.SetAddress(Console.ReadLine());
+
+                    Console.Write("New City: ");
+                    contact.SetCity(Console.ReadLine());
+
+                    Console.Write("New State: ");
+                    contact.SetState(Console.ReadLine());
+
+                    Console.Write("New Zip: ");
+                    contact.SetZip(Console.ReadLine());
+
+                    Console.Write("New Phone Number: ");
+                    contact.SetPhoneNumber(Console.ReadLine());
+
+                    Console.Write("New Email: ");
+                    contact.SetEmail(Console.ReadLine());
+
+                    Console.WriteLine("Contact updated successfully.");
+                    return;
+
+                }
+            }
+            Console.WriteLine("Contact not found.");
         }
         
     }
