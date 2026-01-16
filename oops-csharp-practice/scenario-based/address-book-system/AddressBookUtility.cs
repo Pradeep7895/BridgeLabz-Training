@@ -438,5 +438,65 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 $"\nThe number of contacts persons residing in '{search}' is: {contactsCount}\n"
             );
         }
+
+        //UC-11
+        public void SortContactsByFirstName()
+        {
+            Console.WriteLine("\nResult of sorting contacts alphabetically by First Name : \n");
+
+            // Loop through all Address Books
+            for (int i = 0; i < systemBook.GetAddressBookCount(); i++)
+            {
+                AddressBook book = systemBook.GetAddressBooks()[i];
+
+                if (book.GetCurrentIndex() > 1)
+                {
+                    QuickSort(book.GetContacts(), 0, book.GetCurrentIndex() - 1);
+                }
+            }
+
+            // Display all contacts after sorting
+            DisplayAllContacts();
+        }
+        private void QuickSort(Contact[] contacts, int left, int right)
+        {
+            if (left >= right)
+            {
+                return;
+            }
+
+            int pivotIndex = Partition(contacts, left, right);
+
+            QuickSort(contacts, left, pivotIndex - 1);
+            QuickSort(contacts, pivotIndex + 1, right);
+        }
+        private int Partition(Contact[] contacts, int left, int right)
+        {
+            Contact pivot = contacts[right];
+            int boundary = left - 1;
+
+            for (int i = left; i <= right - 1; i++)
+            {
+                // Compare First Names (case-insensitive)
+                if (string.Compare(
+                        contacts[i].GetFirstName(),
+                        pivot.GetFirstName(),
+                        StringComparison.OrdinalIgnoreCase) < 0)
+                {
+                    boundary++;
+
+                    // Swap contacts[i] and contacts[boundary]
+                    Contact temp = contacts[i];
+                    contacts[i] = contacts[boundary];
+                    contacts[boundary] = temp;
+                }
+            }
+
+            // Place pivot in correct position
+            contacts[right] = contacts[boundary + 1];
+            contacts[boundary + 1] = pivot;
+
+            return boundary + 1;
+        }
     }
 }
