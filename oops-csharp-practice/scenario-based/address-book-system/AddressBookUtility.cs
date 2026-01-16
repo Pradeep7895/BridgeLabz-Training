@@ -360,5 +360,50 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 Console.WriteLine("No persons found in this state.");
             }
         }
+        // UC-9 VIEW PERSONS BY CITY OR STATE 
+        public void SearchContactInCityOrState()
+        {
+            Console.Write("Search by (1) City or (2) State: ");
+            int choice = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter name: ");
+            string input = Console.ReadLine();
+
+            bool found = false;
+
+            // Loop through all Address Books
+            for (int i = 0; i < systemBook.GetAddressBookCount(); i++)
+            {
+                AddressBook book = systemBook.GetAddressBooks()[i];
+
+                // Loop through contacts of each Address Book
+                for (int j = 0; j < book.GetCurrentIndex(); j++)
+                {
+                    Contact contact = book.GetContacts()[j];
+
+                    // Search by City
+                    if (choice == 1 &&
+                        contact.GetCity().Equals(input, StringComparison.OrdinalIgnoreCase))
+                    {
+                        Console.WriteLine(contact);
+                        found = true;
+                    }
+
+                    // Search by State
+                    else if (choice == 2 &&
+                        contact.GetState().Equals(input, StringComparison.OrdinalIgnoreCase))
+                    {
+                        Console.WriteLine(contact);
+                        found = true;
+                    }
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("No persons found.");
+            }
+        }
+
     }
 }

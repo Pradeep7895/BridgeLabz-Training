@@ -25,6 +25,8 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
         void SearchPersonByCity();
         void SearchPersonByState();
         
+         //UC-9
+        void SearchContactInCityOrState();
         
     }
 }
