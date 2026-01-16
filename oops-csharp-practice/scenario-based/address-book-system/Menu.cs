@@ -28,6 +28,7 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 Console.WriteLine("5. Search Person By City");
                 Console.WriteLine("6. Search Person By State");
                 Console.WriteLine("7. Search Person By City / State");
+                Console.WriteLine("8. Count Persons By City and State");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter choice: ");
 
@@ -63,6 +64,10 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                     case 7:
                         addressBook.SearchContactInCityOrState();
                         break;
+                    case 8:
+                        addressBook.CountContactsByCityOrState();
+                        break;
+
                     case 0:
                         Console.WriteLine("Exiting...");
                         break;

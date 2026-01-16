@@ -404,6 +404,39 @@ namespace BridgeLabzTraining.oops_csharp_practice.scenario_based.address_book_sy
                 Console.WriteLine("No persons found.");
             }
         }
+        public void CountContactsByCityOrState()
+        {
+            Console.WriteLine("\nCount Contacts By City or State : \n");
 
+            // Take input from user (can be either city or state)
+            Console.Write("Please enter the city or state name: ");
+            string search = Console.ReadLine();
+
+            int contactsCount = 0;
+
+            // Loop through all Address Books
+            for (int i = 0; i < systemBook.GetAddressBookCount(); i++)
+            {
+                AddressBook book = systemBook.GetAddressBooks()[i];
+
+                // Loop through all contacts in each Address Book
+                for (int j = 0; j < book.GetCurrentIndex(); j++)
+                {
+                    Contact contact = book.GetContacts()[j];
+
+                    // Check if city OR state matches the search input
+                    if (contact.GetCity().Equals(search, StringComparison.OrdinalIgnoreCase) ||
+                        contact.GetState().Equals(search, StringComparison.OrdinalIgnoreCase))
+                    {
+                        contactsCount++;
+                    }
+                }
+            }
+
+            // Display final count
+            Console.WriteLine(
+                $"\nThe number of contacts persons residing in '{search}' is: {contactsCount}\n"
+            );
+        }
     }
 }
