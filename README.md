@@ -731,6 +731,25 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Complete Assignments of runtime analysis and complexity.
   
 ---
+## 📅 Day 24 — Address Book System Using OOP & Arrays
+
+> **Date:** 15/01/2026  
+> **Topic:** Array-Based Address Book Design
+
+---
+
+### 🧩 What I Learned
+
+- 📒 **Address Book System:**  
+  Designed an address book system using OOP concepts and arrays to store contact details.
+
+- 👥 **Multiple Address Books:**  
+  Implemented multiple address books to organize contacts based on categories such as **Personal**, **Office**, and **Family**.
+
+- 🗂️ **Array-Based Storage:**  
+  Used arrays to store and manage contacts within each address book.
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
