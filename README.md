@@ -731,10 +731,10 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
 - Complete Assignments of runtime analysis and complexity.
   
 ---
-## 📅 Day 24 — Address Book System Using OOP & Arrays
+## 📅 Day 24 — Address Book & Browser History Systems
 
 > **Date:** 15/01/2026  
-> **Topic:** Array-Based Address Book Design
+> **Topic:** OOP with Arrays & Linked Data Structures
 
 ---
 
@@ -744,10 +744,83 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
   Designed an address book system using OOP concepts and arrays to store contact details.
 
 - 👥 **Multiple Address Books:**  
-  Implemented multiple address books to organize contacts based on categories such as **Personal**, **Office**, and **Family**.
+  Implemented separate address books to manage **Personal**, **Office**, and **Family** contacts.
 
 - 🗂️ **Array-Based Storage:**  
-  Used arrays to store and manage contacts within each address book.
+  Used arrays for storing and managing contacts within each address book.
+
+- 🌐 **BrowserBuddy – Tab History Manager:**  
+  Built a browser tab history system using a **Doubly Linked List** for back/forward navigation and a **Stack** to restore recently closed tabs efficiently.
+
+---
+## 📅 Day 25 — DSA & OOP Scenario-Based Systems
+
+> **Date:** 16/01/2026  
+> **Topic:** Linked Lists, Queues & Hashing Concepts
+
+---
+
+### 🧩 What I Learned
+
+- 🚦 **TrafficManager – Roundabout Vehicle Flow:**  
+  Implemented a smart roundabout system using a **Circular Linked List** to manage vehicles in motion and a **Queue** to handle vehicles waiting to enter. Included logic for add/remove operations and queue overflow/underflow handling.
+
+- 📚 **BookShelf – Library Organizer:**  
+  Designed a library organization system using a **HashMap** to map genres to book lists implemented with **LinkedList**. Ensured efficient insert/delete operations and avoided duplication using **HashSet**.
+
+---
+## 📅 Day 26 — Sorting Algorithms in Real-World Scenarios
+
+> **Date:** 17/01/2026  
+> **Topic:** Quick Sort & Bubble Sort Applications
+
+---
+
+### 🧩 What I Learned
+
+- 🛒 **FlashDealz – Product Sorting by Discount (Quick Sort):**  
+  Used **Quick Sort** to efficiently sort a large, unsorted list of products based on discount values, focusing on fast average-case performance and optimization.
+
+- 🏃 **FitnessTracker – Daily Step Count Ranking (Bubble Sort):**  
+  Applied **Bubble Sort** to rank users’ daily step counts in a small dataset, handling frequent updates and real-time re-sorting effectively.
+
+---
+## 📅 Day 27 — DSA Scenario codes &  Generics
+
+> **Date:** 19/01/2026  
+> **Topic:** DSA Applications & Introduction to Generics in C#
+
+---
+
+### 🧩 What I Learned
+
+- 📦 **ParcelTracker – Delivery Chain Management:**  
+  Implemented parcel tracking using a **Singly Linked List** to represent delivery stages. Supported forward traversal, custom checkpoints, and handling missing parcels.
+
+- 📝 **ExamProctor – Online Exam Review System:**  
+  Built an exam review system using a **Stack** to track question navigation and a **HashMap** to store answers. Used functions to calculate scores after submission.
+
+- 🧬 **Generics in C#:**  
+  Learned the basics of generics, including **type parameters**, **generic classes**, and **generic methods** to write reusable and type-safe code.
+
+---
+## 📅 Day 28 — DSA Scenario Questions & Collections Framework
+
+> **Date:** 20/01/2026  
+> **Topic:** Advanced Sorting, Backtracking & Collections in C#
+
+---
+
+### 🧩 What I Learned
+
+- 🆔 **Sorting Aadhar Numbers (Radix Sort):**  
+  Used **Radix Sort** to efficiently sort 12-digit Aadhar numbers, applied binary search after sorting, and maintained order for entries with the same prefix.
+
+- 🔐 **Password Cracker Simulator (Backtracking):**  
+  Implemented a backtracking approach to generate all possible strings, stop when the password matches, and understand time–space complexity.
+
+- 📚 **Collections Framework:**  
+  Learned the overview and hierarchy of the Collections Framework, including **List**, **Set**, **Queue/Deque**, and **Map** interfaces, their implementations, comparisons, and real-world use cases.
 
 ---
 
