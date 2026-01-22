@@ -823,6 +823,22 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
   Learned the overview and hierarchy of the Collections Framework, including **List**, **Set**, **Queue/Deque**, and **Map** interfaces, their implementations, comparisons, and real-world use cases.
 
 ---
+## 📅 Day 29 — Scenario Based & I/O Streams
+
+> **Date:** 21/01/2026  
+> **Topic:** Sorting, Data Structures & File Handling
+
+---
+
+### 🧩 What I Learned
+
+- 🎓 **EduResults – Rank Sheet Generator (Merge Sort):**  
+  Used **Merge Sort** to combine and sort multiple pre-sorted student lists efficiently while maintaining stability for duplicate scores.
+
+- 🛒 **SmartCheckout – Supermarket Billing Queue:**  
+  Designed a billing system using a **Queue** to manage customers and a **HashMap** to fetch item prices and update stock during checkout.
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
