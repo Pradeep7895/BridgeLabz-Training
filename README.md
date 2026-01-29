@@ -839,6 +839,87 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
   Designed a billing system using a **Queue** to manage customers and a **HashMap** to fetch item prices and update stock during checkout.
 
 ---
+## 📅 Day 30 — Scenario Based & Exception Handling
+
+> **Date:** 22/01/2026  
+> **Topic:** Emergency Navigation System & Exception Management
+
+---
+
+### 🧩 What I Learned
+
+- 🚑 **AmbulanceRoute – Emergency Patient Navigation:**  
+  Implemented a hospital navigation system using a **Circular Linked List** where each node represents a hospital unit. Simulated patient redirection by rotating through units, handled unit removal during maintenance, and ensured efficient emergency routing.
+
+- ⚠️ **Exception Handling in C#:**  
+  Learned different types of exceptions (**checked, unchecked, and custom**). Practiced handling exceptions using `try-catch`, `try-catch-finally`, `try-with-resources`, `throw`, and `throws`, and created custom exceptions by extending the `Exception` class.
+
+---
+## 📅 Day 31 — Regex, NUnit, Annotations, Reflection & Code Coverage
+
+> **Date:** 23/01/2026  
+> **Topic:** Testing, Regex, Annotations, Reflection And Code Coverage
+
+---
+### 🧩 What I Learned
+
+- 🔍 **Regex in C#:**  
+  Learned regex basics including **metacharacters** and **quantifiers**, and implemented common patterns like **email validation**, **password strength**, and **phone number formats** using the C# Regex API.
+
+- 🧪 **NUnit Framework:**  
+  Introduced to NUnit for unit testing, including test class structure, annotations, writing test cases, and using assertions. Also understood the role of annotations in test execution.
+
+- 🏷️ **Annotations (Attributes):**  
+  Learned built-in annotations, created custom annotations, explored advanced use cases, and understood how annotations are applied in real-world scenarios.
+
+- 🔎 **Reflection in .NET:**  
+  Gained understanding of reflection, how to inspect classes and methods at runtime, and how annotations work together with reflection.
+
+- 📊 **Code Coverage in C#:**  
+  Learned the importance of code coverage and how it helps measure the effectiveness of test cases.
+
+---
+## 📅 Day 32 — Annotations, Reflection & Testing Basics
+
+> **Date:** 27/01/2026  
+> **Topic:** Annotation-Driven Systems & Unit Testing
+
+---
+
+### 🧩 What I Learned
+
+- 🏥 **HealthCheckPro – API Metadata Validator:**  
+  Designed a tool that scans API controller classes using **custom annotations** and **reflection** to validate metadata and auto-generate API documentation.
+
+- 📝 **EventTracker – Auto Audit System:**  
+  Implemented an audit logging system using **annotations**, **reflection**, and **JSON** to capture user actions with timestamps and metadata.
+
+- 🧪 **Introduction to MSTest:**  
+  Learned the basics of **MSTest**, Microsoft’s unit testing framework for .NET, used to automatically test code behavior and prevent bugs.
+
+---
+## 📅 Day 33 — CSV Handling, NUnit Testing & Exception-Based Scenarios
+
+> **Date:** 28/01/2026  
+> **Topic:** File Handling, Testing Scenario based & Validation Logic
+
+---
+
+### 🧩 What I Learned
+
+- 📄 **CSV Handling in C#:**  
+  Learned how to read, write, parse CSV files, and perform basic data validation on CSV data.
+
+- 🧪 **NUnit Test Case Writing:**  
+  Wrote NUnit test cases for a **Bank Account** scenario to validate:
+  - Successful deposit and withdrawal  
+  - Exception handling for negative deposits  
+  - Exception handling for insufficient balance during withdrawal  
+
+- ✈️ **AeroVigil – Airline Validation System:**  
+  Implemented an airline validation system to parse flight details, validate passenger capacity and fuel levels, and calculate required fuel. Used exception handling to handle invalid inputs and prevent system crashes.
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
