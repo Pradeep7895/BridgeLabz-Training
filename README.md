@@ -920,6 +920,82 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
   Implemented an airline validation system to parse flight details, validate passenger capacity and fuel levels, and calculate required fuel. Used exception handling to handle invalid inputs and prevent system crashes.
 
 ---
+## 📅 Day 34 — Scenario based questions & JSON
+
+> **Date:** 29/01/2026  
+> **Topic:** StreamBuzz, OceanFleet and JSON Data.
+
+---
+
+### 🧩 What I Learned
+
+-  **StreamBuzz – Creator Engagement Analytics:**  
+  Built a console-based analytics system to track creators’ weekly likes, identify top-performing posts based on thresholds, and calculate overall average engagement using collections and arrays.
+
+-  **OceanFleet – Vessel Performance Management:**  
+  Designed a vessel tracking system using OOP and collections to add vessel data, retrieve vessel details by ID, and identify high-performance vessels based on average speed.
+
+-  **JSON in C#:**  
+  Learned JSON fundamentals including reading, writing, parsing JSON data, and validating data using JSON schema.
+
+---
+## 📅 Day 35 — Scenario based Questions on String, OOP's and Collections concept
+
+> **Date:** 30/01/2026  
+> **Topic:** Legical Twist and Future Logistics.
+---
+
+### 🧩 What I Learned
+
+   **Lexical Twist (String Processing):**  
+  Solved a string-based problem involving word reversal checks, vowel/consonant analysis, transformations, and input validation without terminating the program abruptly.
+
+-  **FutureLogistics – Goods Transport Billing System:**  
+  Designed a billing system using **abstract classes**, **inheritance**, and **polymorphism** to calculate transport charges for **Brick** and **Timber** goods based on quantity, area, vehicle type, tax, and rating-based discounts. Used parsing, validation, and custom logic to handle different transport scenarios.
+
+---
+## 📅 Day 36 — Design Principles, Patterns & Basic Multithreading
+
+> **Date:** 02/02/2026  
+> **Topic:** Software Design & Basic Multithreading in .NET
+
+---
+
+### 🧩 What I Learned
+
+- **Design Principles:**  
+  Studied core OOP design principles including **SOLID**, **KISS**, **DRY**, and **DIY** to write clean, maintainable, and scalable code.
+
+-  **Design Patterns (GoF):**  
+  Learned the concept of **Design Patterns**, their importance, and GoF classifications:
+  - Creational  
+  - Structural  
+  - Behavioral  
+  Focused on understanding the **Singleton Pattern**.
+
+-  **Multithreading in .NET:**  
+  Started multithreading concepts using the `Thread` class, delegates, lambda expressions.
+
+---
+## 📅 Day 37 — Advance Multithreading and Some Scenario Based Questions
+
+> **Date:** 03/02/2026  
+> **Topic:** Multithreading, Flip Key Logic and Robot Hazard Analyzer System
+
+---
+
+### 🧩 What I Learned
+
+- **Advance Multithreading in .NET:**
+  Learned about foreground vs background threads, thread lifecycle, states, priorities, and synchronization scenarios.
+
+- **Flip Key Logic (CleanseAndInvert):**  
+  Implemented a string manipulation utility to validate input, remove characters with even ASCII values, reverse the result, and apply positional case transformation. Handled invalid inputs without abruptly terminating the program.
+
+- **Robot Hazard Analyzer System:**  
+  Built a hazard risk evaluation system using **custom exceptions** to validate robot arm precision, worker density, and machinery state. Calculated hazard risk scores based on defined formulas and handled invalid scenarios gracefully.
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
