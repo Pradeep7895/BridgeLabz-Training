@@ -996,6 +996,196 @@ Applied **Encapsulation, Inheritance, Polymorphism, and Abstraction** to solve r
   Built a hazard risk evaluation system using **custom exceptions** to validate robot arm precision, worker density, and machinery state. Calculated hazard risk scores based on defined formulas and handled invalid scenarios gracefully.
 
 ---
+## 📅 Day 38 — RDBMS & SQL Server Fundamentals
+
+> **Date:** 04/02/2026  
+> **Topic:** Database Design & SQL Concepts
+
+---
+
+### 🧩 What I Learned
+
+- **RDBMS Concepts:**  
+  Studied relational database fundamentals including tables, relationships, keys, and constraints.
+
+- **Normalization:**  
+  Learned normalization techniques (1NF, 2NF, 3NF) to eliminate redundancy and improve database design.
+
+- **SQL Commands:**  
+  Practiced DDL, DML, and DCL commands using SQL Server for managing structure, data, and permissions.
+
+- **Advanced SQL Topics:**  
+  Explored joins, subqueries, indexing, transactions, performance tuning, and security best practices used in real-world applications.
+
+---
+## 📅 Day 39 — MSSQL Programming Concepts
+
+> **Date:** 05/02/2026  
+> **Topic:** Advanced SQL Programming & Database Control
+
+---
+
+### 🧩 What I Learned
+
+- **Core MSSQL Concepts:**  
+  Practiced SQL syntax, constraints, and keys to maintain data integrity.
+
+-  **Joins & Subqueries:**  
+  Implemented different types of joins and nested queries for complex data retrieval.
+
+-  **Aggregations & Grouping:**  
+  Used aggregate functions and GROUP BY for data analysis.
+
+-  **Stored Procedures & Functions:**  
+  Created stored procedures and user-defined functions for reusable database logic.
+
+- **Views & Security:**  
+  Used views for data abstraction and applied DCL commands for managing user roles and permissions.
+
+- **Cursors:**  
+  Explored row-by-row data processing using cursors.
+
+
+
+---
+## 📅 Day 40 — Revision & Skill Development
+
+> **Date:** 06/02/2026  
+> **Topic:** Comprehensive Revision & Soft Skills Enhancement
+
+---
+
+### 🧩 What I Did
+
+- **Revised All Previous Topics:**  
+  Reviewed concepts from DSA, OOP, Design Principles, Multithreading, Exception Handling, File Handling, Testing Frameworks, and SQL/MSSQL programming.
+
+-  **Strengthened Core Understanding:**  
+  Focused on clarifying doubts, revisiting complex concepts, and reinforcing best practices.
+
+-  **Soft Skills Development:**  
+  Attended a meeting session aimed at improving communication, confidence, and overall professional skills.
+
+---
+## 📅 Day 41 — Database Operations & Healthcare Application
+
+> **Date:** 07/02/2026  
+> **Topic:** DBMS Execution & Project Integration
+
+---
+
+### 🧩 What I Did
+
+-  **DBMS Command Query Files:**  
+  Executed and verified all database command query files including DDL, DML, DCL, constraints, joins, procedures, and indexing.
+
+- **HealthCare Database Schema:**  
+  Completed the full **HealthCare database schema (HealthCare.pdf)** implementation using SQL Server.
+
+---
+## 📅 Day 42 — Healthcare Project Development
+
+> **Date:** 09/02/2026  
+> **Topic:** Database Connection & Model Design
+
+---
+
+### 🧩 What I Did
+
+-  **Healthcare Project Implementation:**  
+  Worked on the Healthcare application project and improved overall structure.
+
+-  **Database Connection:**  
+  Established and configured database connectivity with SQL Server.
+
+- **Model Classes:**  
+  Created and structured model classes to represent database entities and maintain clean architecture.
+
+---
+## 📅 Day 43 — Mock Test 
+
+> **Date:** 10/02/2026  
+> **Topic:** Comprehensive Mock Assessment
+
+---
+
+### 🧩 What I Did
+
+-  **Mock Test:**  
+  Appeared for a mock test consisting of 3 scenario-based questions.
+
+- **Concept Application:**  
+  Applied multiple concepts learned so far, including OOP, DSA, exception handling, multithreading, and testing.
+---
+## 📅 Day 44 — Healthcare Project Enhancement
+
+> **Date:** 11/02/2026  
+> **Topic:** Project Enhancement
+
+---
+
+### 🧩 What I Did
+
+- **Healthcare Project Implementation:**  
+  Worked on the Healthcare application project and improved the overall structure and organization of the code.
+
+-  **Exception Handling & Use Cases:**  
+  Implemented proper exception handling mechanisms and executed the provided use cases to ensure validation, stability, and reliable error management within the application.
+
+---
+## 📅 Day 45 — NotifyHub: Concurrent Notification System
+
+> **Date:** 12/02/2026  
+> **Topic:** Multithreading & Async Processing
+
+---
+
+### 🧩 What I Did
+
+- Designed a concurrent notification system to handle email, SMS, and app alerts.
+- Used multithreading and async/await for parallel, non-blocking processing.
+-  Applied OOP principles with proper separation of data, sending logic, and processing.
+- Implemented prioritization, validation using attributes, and robust failure handling.
+
+---
+## 📅 Day 46 — Email Validator & Soft Skills Development
+
+> **Date:** 13/02/2026  
+> **Topic:** Regex Validation, File Handling & Multithreading
+
+---
+
+### 🧩 What I Worked On
+
+-  **Email Validator – College Admission Portal:**  
+  Built an email validation module using **Regex**, modular method design, and exception handling. Implemented pattern matching to validate email formats and handle invalid inputs safely.
+
+-  **Concept Integration:**  
+  Applied multithreading, file handling, annotations, and regex concepts within the project structure.
+
+-  **Soft Skills Development:**  
+  Attended a session focused on improving communication, confidence, and professional growth.
+
+---
+## 📅 Day 47 — Project Completion & Smart City System
+
+> **Date:** 14/02/2026  
+> **Topic:** Healthcare App Completion & TechVille Project Initiation
+
+---
+
+### 🧩 What I Worked On
+
+- **Healthcare Application Completed:**  
+  Successfully completed the Healthcare application, including database connectivity, model classes, exception handling, use-case execution, and SQL schema integration. Ensured proper validation, structured architecture, and stable execution.
+
+- **Project-Based Training – TechVille Smart City Management System:**  
+  Started working on a large-scale project simulating a Smart City digital system.
+
+   - **Module 1:**
+   Citizen Registration Portal with data input, eligibility calculation, basic validations, and formatted output using core programming concepts.
+
+---
 
 ✨ *This repository serves as a daily learning journal for the training program.*
 
