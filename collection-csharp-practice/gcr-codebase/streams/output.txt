@@ -1,0 +1,3 @@
+﻿welcome to c# file streams
+this program uses filter streams
+buffered stream improves performance
